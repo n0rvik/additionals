@@ -1,6 +1,7 @@
 # Formater
 module Additionals
   module Formatter
+
     SMILEYS = { 'smiley' => ':-?\)', # :)
                 'smiley2' => '=-?\)', # =)
                 'laughing' => ':-?D', # :D
