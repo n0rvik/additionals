@@ -1,5 +1,6 @@
 module Additionals
   module EntityMethods
+
     def assignable_users(prj = nil)
       prj = project if project.present?
       users = prj.assignable_users_and_groups.to_a
