@@ -1,6 +1,7 @@
 module Additionals
   module Patches
     module AccessControlPatch
+
       extend ActiveSupport::Concern
 
       included do
