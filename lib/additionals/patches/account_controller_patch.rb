@@ -1,6 +1,7 @@
 module Additionals
   module Patches
     module AccountControllerPatch
+
       extend ActiveSupport::Concern
 
       included do
