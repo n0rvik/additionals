@@ -1,5 +1,6 @@
 module Additionals
   module Helpers
+
     def additionals_list_title(options)
       title = []
       if options[:issue]

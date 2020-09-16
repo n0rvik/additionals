@@ -1,5 +1,6 @@
 module Additionals
   class AdditionalsHookListener < Redmine::Hook::ViewListener
+
     include IssuesHelper
     include AdditionalsIssuesHelper
 
